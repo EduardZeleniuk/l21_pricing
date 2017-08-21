@@ -33,6 +33,13 @@ body {
 
 sup {
   font-size: 24px;
+  position: absolute;
+  top: 65px;
+  left: 120px;
+}
+
+.card:nth-of-type(2) sup {
+  left: 145px;
 }
 
 sub {
@@ -128,7 +135,6 @@ sub {
           align-items: center;
   background: -webkit-radial-gradient(center bottom, circle farthest-side, white 99.5%, #f5f4f9 100%);
   background: -o-radial-gradient(center bottom, circle farthest-side, white 99.5%, #f5f4f9 100%);
-  background: -ms-radial-gradient(center bottom, circle farthest-side, white 99.5%, #f5f4f9 100%);
   background: radial-gradient(center bottom, circle farthest-side, white 99.5%, #f5f4f9 100%);
 }
 
@@ -152,12 +158,12 @@ sub {
 
 .card__list {
   list-style: none;
+  width: 200px;
   padding: 0;
 }
 
 .card__item {
   font-size: 16px;
-  max-width: 150px;
   font-family: 'Roboto', sans-serif;
 }
 

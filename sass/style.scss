@@ -20,6 +20,12 @@ body {
 }
 sup {
 	font-size: 24px;
+	position: absolute;
+  top: 65px;
+  left: 120px;
+}
+.card:nth-of-type(2) sup {
+	left: 145px;
 }
 sub {
 	font-size: 16px;
@@ -104,11 +110,11 @@ sub {
 		}
 		&__list {
 			list-style: none;
+			width: 200px;
 			padding: 0;
 		}
 		&__item {
 			font-size: 16px;
-			max-width: 150px;
 			font-family: 'Roboto', sans-serif;
 			&:not(:last-of-type) {
 				margin-bottom: 30px;
